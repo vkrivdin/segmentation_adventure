@@ -7,14 +7,19 @@ Create customer segmentation that shows customer count and their sales revenue f
 ## Requirements
 1. Customers segmentation is set on static sales revenue threshold values
   - there are five segments in total
-  - threshold levels are 0, 5 and 10 thousand $
+  - threshold levels are 0, 1, 5 and 10 thousand $
+    - between 0 and 1
+    - between 1 and 5
+    - between 5 and 10
+    - above 10
+    - below 0 (technical, just to check all the cases) 
 3. Sales revenue amount to be checked against the thresgold is the last 12 month sales revenue amount
 4. Last 12 month amount must be calculated respective to the period of interest or analysis
   -  i.e. if I am looking at May 2023 then I expect sales revenue of April 2022 to May 2023 to be considered as last 12 month
 5. Customer may appear in different segment each month as a consequence of using last 12 month
 6. It must be possible to see the overall situation with customers - how many, in which segment, how much sales revenue each segment brings
 7. It must be possible to view the trend over time in situation with customers
-8. It must be possible to investigate each customer individually - what they bught, when, what is their current segment, did they change the segment in any month
+8. It must be possible to investigate each customer individually - what they bought, when, what is their current segment, did they change the segment in any month
 
 ## Source of data
 Microsoft sample dataset
