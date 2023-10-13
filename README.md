@@ -9,3 +9,6 @@ Create customer segmentation that shows customer count and their sales revenue f
 -- i.e. if I am looking at May 2023 then I expect sales revenue of April 2022 to May 2023 to be considered as last 12 month
 - Customers segmentation is set on static sales revenue threshold values
 
+## Source of data
+Microsoft sample dataset
+- https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
