@@ -7,11 +7,11 @@ Create customer segmentation that shows customer count and their sales revenue f
 ## Requirements
 1. Customers segmentation is set on static sales revenue threshold values
   - there are five segments in total
-  - threshold levels are 0, 1, 5 and 10 thousand $
+  - threshold levels are 0, 1, 4 and 7 thousand $
     - between 0 and 1
-    - between 1 and 5
-    - between 5 and 10
-    - above 10
+    - between 1 and 4
+    - between 4 and 7
+    - above 7
     - below 0 (technical, just to check all the cases) 
 3. Sales revenue amount to be checked against the thresgold is the last 12 month sales revenue amount
 4. Last 12 month amount must be calculated respective to the period of interest or analysis
